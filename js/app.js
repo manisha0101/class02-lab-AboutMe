@@ -6,7 +6,7 @@ var invalidAnswerMessage = "Please answer either using Y/N or Yes/No.";
 var visitorName = prompt('Hello!! Thanks for visitng my page. Please tell me your name?');
 console.log("visitor Name is : " + visitorName);
 
-if (visitorName.length() > 0) {
+if (visitorName.length > 0) {
 alert('Hi '+ visitorName + ' so my guess is you are also a fun loving person and try a lot of new stuff!!!' );
 }
 
